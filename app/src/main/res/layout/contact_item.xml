@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/haha"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:src="@mipmap/ic_launcher"/>
+    <TextView
+        android:id="@+id/contect_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hahah "
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@+id/haha"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/delete"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+</RelativeLayout>
